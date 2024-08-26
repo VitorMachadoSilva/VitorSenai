@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body onload="carregaProduto()">
+    <header>
+        <div>
+            <a href="js/index.html" id="home">Home</a>
+            <button onclick="abreTelaLogin()" id="log">Login</button>
+            <h1>
+                Loja dos Nerds 
+                <br>
+                Vingadores X Liga da Justiça
+            </h1>
+            <a onclick="calcularCesta()" class="car" href="#">compras<img src="/imagens/carrinho.png" alt="Carrinho de Compras"></a>
+        </div>
+    </header>
+    <h1 id="tituloProduto"></h1>
+    <div id="central">
+        <div id="imgProd"></div>
+        <p id="descProduto"></p>
+    </div>
+    
+</body>
+</html>
